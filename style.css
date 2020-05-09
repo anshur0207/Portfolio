@@ -1,0 +1,379 @@
+font-family: 'Sriracha', cursive;
+/*css variable*/
+
+
+/*start navigation*/
+
+.header_area .main-menu .navbar .navbar-brand
+{
+	padding: 0 2rem 0 5rem;
+	color: red;
+
+}
+.header_area .main-menu .navbar{
+	padding: 1rem 20rem;
+}
+.header_area .main-menu .nav-item .nav-link{
+	font-family: "Sriracha";
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 1.7rem;
+	color: black;
+}
+h1{
+	font-family: "Sriracha",cursive;
+}
+.header_area .main-menu navbar-nav .active a{
+	color: purple;
+}
+.header_area .main-menu .navbar-nav a:hover{
+	background-color: purple;
+	background-clip: text;
+}
+
+/*Banner area*/
+.site-main .site-banner{
+	background: url(transparent);
+
+}
+.site-main .site-banner .site-title{
+	padding-top: 10%;
+	font-family: "Sriracha";
+	font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+content: "";
+height: 2px;
+width: 18vw;
+background:black;
+display: inline-block;
+margin-left: 5%;
+transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+	font-size:3.9rem;
+}
+.site-main .site-banner .site-title h4{
+	font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+/*cloese banner area*/ 
+/*buttons*/
+
+.button{
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px;
+    font-family: "Sriracha";
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button{
+    background-color:purple;
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+   
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+
+.button.secondary-button{
+    background: purple;
+    background-clip: padding-box;
+    transition: background .6s ease;
+    color: whitesmoke;
+}
+
+.button.secondary-button:hover{
+    background: whitesmoke;
+    color: whitesmoke;
+ 
+}
+
+/*p.para{
+    color: var(--text-color);
+    font: normal 500 16px/ 25px var(--roboto);
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}*/
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px;
+     font-family: "Sriracha"; 
+    letter-spacing: 15px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+/*end about area*/
+
+/* Services Area */ 
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+
+/* End Services Area */ 
+/*footer*/
+.footer{
+  width: 100%;
+  background: #00121b;
+  display: block;
+  height: 460px;
+}
+.inner-footer{
+  width: 95%;
+  margin: auto;
+  padding: 30px; 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.footer-items{
+  width: 25%;
+  padding: 10px 20px;
+
+}
+#foot-1{
+  padding: 10px 0;
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer-items p{
+  color: white;
+  font-size: 12px;
+  text-align: justify;
+  line-height: 25px;
+}
+#foot-2{
+  margin: 10px 0;
+  color: grey;
+  font-size: 16px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+.border{
+  height: 2px;
+  width: 60px;
+  margin-left: 40px;
+
+}
+.footer ul{
+  list-style:none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+
+}
+.footer ul a{
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  transition: 0.3s;
+
+}
+ .footer ul a:hover{
+  color:#ff9800; 
+}
+
+.footer ul li{
+  margin: 10px 0;
+  height: 25px;
+}
+.footer li i{
+  margin: right:20px;
+
+}
+
+.social-media{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding:1.5rem 0;
+  margin-top: 1rem;
+  border-top: 1px solid rgba(0,0,0,.1);
+
+}
+.social-media i{
+  font-size: 3rem;
+}
+.fa-twitter-square{
+  color:#55acee;
+}
+.fa-instagram{
+  color:#e6683c;
+}
+.fa-facebook-square{
+  color:#55acee;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram:hover{
+  color: #45e19f;
+}
+.footer-bottom{
+ padding: 15px;
+  background: #3d545f;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+
+}
+@media screen and (max-width:1085px){
+  .footer-items{
+    width: 50%;
+    background: #00121b;
+
+  }
+}
+  @media screen and (min-width: 700px){ 
+  .footer-ul{
+  list-style:none;
+  color: #fff;
+  font-size: 5px;
+  letter-spacing: 0.3px;
+  }
+}
+/*contact page*/
+.container1{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left{
+	background: url("img/bg.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btnn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #2ecc71;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btnn:hover{
+    background-color: #27ae60;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
